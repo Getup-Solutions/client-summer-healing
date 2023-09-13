@@ -1,0 +1,189 @@
+
+   ErrorException 
+
+  Attempt to read property "id" on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:35
+     31▕      */
+     32▕     public function handle()
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+  ➜  35▕         $users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+     37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id)->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+
+  1   C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:35
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Attempt to read property "id" on null", "C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php")
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+   ErrorException 
+
+  Attempt to read property "id" on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+     35▕         //$users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+  ➜  37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id)->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+     40▕ }
+     41▕
+
+  1   C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Attempt to read property "id" on null", "C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php")
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+   Error 
+
+  Call to a member function id() on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+     35▕         //$users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+  ➜  37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id())->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+     40▕ }
+     41▕
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\Util.php:41
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function id() on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+     35▕         //$users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+  ➜  37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id())->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+     40▕ }
+     41▕
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\Util.php:41
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function id() on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+     35▕         //$users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+  ➜  37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id())->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+     40▕ }
+     41▕
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\Util.php:41
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Error 
+
+  Call to a member function id() on null
+
+  at C:\xampp\htdocs\summer\app\Console\Commands\SubscriptionCron.php:37
+     33▕     {
+     34▕         info("Cron Job running at ". now());
+     35▕         //$users = User::find(auth()->user()->id);
+     36▕         //dd($users);
+  ➜  37▕         $subscription = Usersubscription::where('userid', '=', auth()->user()->id())->where('next_date', '<=', date('Y-m-d'))->update(['status' => 'inactive']);
+     38▕         
+     39▕     }
+     40▕ }
+     41▕
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\SubscriptionCron::handle()
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Container\Util.php:41
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103' (SQL: update `usersubscriptions` set `status` = inactive, `usersubscriptions`.`updated_at` = 2023-03-14 09:19:01 where date(`next_date`) <= 2023-03-14)
+
+  at C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:760
+    756▕         // If an exception occurs when attempting to run a query, we'll format the error
+    757▕         // message to include the bindings with SQL, which will make this exception a
+    758▕         // lot more helpful to the developer instead of just the database's errors.
+    759▕         catch (Exception $e) {
+  ➜ 760▕             throw new QueryException(
+    761▕                 $query, $this->prepareBindings($bindings), $e
+    762▕             );
+    763▕         }
+    764▕     }
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOException::("SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103'")
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOStatement::execute()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103' (SQL: update `usersubscriptions` set `status` = inactive, `usersubscriptions`.`updated_at` = 2023-03-14 09:20:02 where date(`next_date`) <= 1678785602)
+
+  at C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:760
+    756▕         // If an exception occurs when attempting to run a query, we'll format the error
+    757▕         // message to include the bindings with SQL, which will make this exception a
+    758▕         // lot more helpful to the developer instead of just the database's errors.
+    759▕         catch (Exception $e) {
+  ➜ 760▕             throw new QueryException(
+    761▕                 $query, $this->prepareBindings($bindings), $e
+    762▕             );
+    763▕         }
+    764▕     }
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOException::("SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103'")
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOStatement::execute()
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103' (SQL: update `usersubscriptions` set `status` = inactive, `usersubscriptions`.`updated_at` = 2023-03-14 09:21:02 where date(`next_date`) <= 1678785662)
+
+  at C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:760
+    756▕         // If an exception occurs when attempting to run a query, we'll format the error
+    757▕         // message to include the bindings with SQL, which will make this exception a
+    758▕         // lot more helpful to the developer instead of just the database's errors.
+    759▕         catch (Exception $e) {
+  ➜ 760▕             throw new QueryException(
+    761▕                 $query, $this->prepareBindings($bindings), $e
+    762▕             );
+    763▕         }
+    764▕     }
+
+  1   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOException::("SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect datetime value: '1707069103'")
+
+  2   C:\xampp\htdocs\summer\vendor\laravel\framework\src\Illuminate\Database\Connection.php:570
+      PDOStatement::execute()

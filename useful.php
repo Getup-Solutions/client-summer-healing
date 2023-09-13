@@ -1,0 +1,1 @@
+{!! Illuminate\Support\Str::limit($adminpage->description, 50) !!}

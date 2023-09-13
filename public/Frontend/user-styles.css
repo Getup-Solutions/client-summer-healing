@@ -1,0 +1,95 @@
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 12px;
+    color: #d5757e;
+    font-weight: 300;
+  }
+  .cart-count1 i {
+    color: #fdc642;
+    font-size: 43px;
+    vertical-align: text-top;
+    margin-right: 1rem;
+  }
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+  #cardlables {
+    color: #FDC442;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    margin-bottom: 1rem;
+  }
+  #card-errors {
+    color: #dd5d5d;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  #subscriptionplan {
+    position: absolute;
+    top: 4px;
+    z-index: 111;
+    background: #fdc642;
+    right: 21px;
+    border-radius: 0 0px 0 0;
+    font-size: 11px;
+    padding: 0 12px;
+  }
+  .ElementsApp .InputElement {
+    color: #bbb;
+  }
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  transition: background-color 5000s ease-in-out 0s;
+  color: #fff;
+  font-size: .875rem;
+  font-weight: 400;
+}
+input::-internal-input-suggested {
+  font-weight: 400;
+}
+#alreadyPurchased {
+  display: inline-block;
+  margin-top: 2rem;
+}
+.currentsubtext {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.tiktokIcon img, .telegramIcon img{
+  width: 27px !important;
+  height: 27px !important;
+}
+.social a img, .social a svg {
+  width: 30px;
+  height: 30px;
+}
+.social {
+  display: flex!important;
+}
+.mobile-menu .links {
+    padding-left: 3rem;
+}
+footer .links {
+    gap: 24px;
+    width: 100%;
+    padding-left: 4rem;
+}
+.slick-slide img {
+    margin: 0 auto;
+    border-radius: 12px;
+}

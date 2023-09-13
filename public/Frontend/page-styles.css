@@ -1,0 +1,301 @@
+.text-danger.text-left {
+  text-align: left;
+  display: block;
+}
+.tiktokIcon img, .telegramIcon img{
+  width: 27px !important;
+  height: 27px !important;
+}
+.social a img, .social a svg {
+  width: 30px;
+  height: 30px;
+}
+#ajax-contact-form .error {
+    color: #f28888;
+    font-size: 14px !important;
+    float: none;
+    display: block;
+    position: unset !important;
+    z-index: 99999;
+    opacity: 1 !important;
+    text-align: left;
+    text-transform: inherit;
+    margin-top: 5px;
+}
+#ajax-contact-form .form-control:focus label.error{
+    position: unset !important;
+    display: block;
+    float: none;
+    text-transform: inherit!important;
+    margin-top: 5px;
+    transform: none!important;
+}
+.form-floating > .form-control-plaintext ~ label.error, 
+.form-floating > .form-control:focus ~ label.error, 
+.form-floating > .form-select ~ label.error {
+  opacity: 1 !important;
+  color: #FDC442;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  text-transform: inherit !important;
+  transform: none!important;
+}
+#successmsg {
+  margin-top: 1rem;
+}
+#successmsg span {
+  color: #fff;
+  background: #c69932;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+.count {
+  color: #fff;
+}
+#cart_main_page {
+  padding-top: 301px;
+}
+#cart_items p {
+  margin-bottom: 0;
+}
+.row.cart-detail {
+  border-bottom: 1px dotted #595555;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.row.cart-detail:nth-last-child(1){
+  border-bottom: 0;
+}
+#cart_main_page input::-webkit-outer-spin-button,
+#cart_main_page input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#cart_main_page input[type=number] {
+  -moz-appearance: textfield;
+}
+#cart_main_page table td{
+  vertical-align: middle;
+}
+#cart_main_page table .text-right {
+  text-align: right;
+}
+#cart_action_btnz {
+  display: flex;
+  justify-content: space-between;
+}
+#cart_main_page table td{
+  background: none!important;
+  border-left: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+#cart_action_btnz a, #cart_action_btnz .btn {
+  color: #fdc442;
+}
+#cart_main_page table th{
+  border-left: 1px solid rgba(255,255,255,0.1);
+}
+#cart_main_page .container {
+  max-width: 85%;
+}
+
+/* Checkout */
+.checkout_course_title {
+  font-size: 17px;
+  font-family: "Proza Libre",sans-serif;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+}
+.checkout_course_item .thumb-rounded {
+  width: 60px;
+  height: 60px;
+  object-fit: none;
+}
+#checkout_course_container.col-left{
+  gap: 30px!important;
+}
+.highlight-link.checkout-login-btn {
+  background-color: transparent;
+  border: 0;
+}
+#exampleModal .close.x {
+  background: none;
+  border: 0;
+}
+.modalError{
+  color:red;
+  font-size: 13px;
+}
+
+.mobile-menu.show .social a {
+    margin-right: 1rem;
+}
+@media only screen and (min-width: 575px){
+.subscription-plans .card {
+    border-radius: 60px;
+}
+}
+@media only screen and (min-width: 575px){
+.subscription-plans .card {
+    gap: 53px;
+}
+.subscription-plans .card {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 60px;
+    border-radius: 30px;
+    isolation: isolate;
+    background: rgba(241,241,241,0.05);
+    border: 1px solid rgba(241,241,241,0.35);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+#nocourse_for_checkout p {
+  text-align: center;
+  font-size: 23px;
+  color: #fdc442;
+}
+.yoga-course_link {
+  text-align: center;
+}
+.yoga-course_link a {
+  color: #373535;
+  background: #fdc442;
+  padding: 7px 23px;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all .3s;
+}
+.yoga-course_link a:hover {
+  color: #fff;
+  background: #303030;
+  transition: all .3s;
+}
+.btn.btn-primary.w-100.addedcarts {
+  background: #bdbcbc !important;
+  cursor: auto;
+}
+#error_name span {
+  color: white;
+  font-size: 16px;
+  background: #e32020;
+  padding: 5px 10px;
+}
+.cart-count1 i {
+  color: #fdc642;
+  font-size: 43px;
+  vertical-align: text-top;
+  margin-right: 1rem;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+#card-errors {
+  color: #dd5d5d;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+#cardlables {
+  color: #FDC442;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  margin-bottom: 1rem;
+}
+#subscriptionplan {
+  position: absolute;
+  top: 4px;
+  z-index: 111;
+  background: #fdc642;
+  right: 21px;
+  border-radius: 0 0px 0 0;
+  font-size: 11px;
+  padding: 0 12px;
+}
+.ElementsApp .InputElement {
+  color: #bbb;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  transition: background-color 5000s ease-in-out 0s;
+  color: #fff;
+  font-size: .875rem!important;
+  font-weight: 400;
+}
+input::-internal-input-suggested {
+  font-size: .875rem!important;
+  font-weight: 400;
+}
+#handleAjax input:-webkit-autofill,
+#handleAjax2 input:-webkit-autofill{
+-webkit-text-fill-color: #000;
+}
+#alreadyPurchased {
+  display: inline-block;
+  margin-top: 2rem;
+}
+}
+.currentsubtext {
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.social {
+  display: flex!important;
+}
+.mobile-menu .links {
+    padding-left: 3rem;
+}
+footer .links {
+    padding-left: 4rem;
+}
+.slick-slide img {
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+
+
+@media(max-width:600px){
+    body header.nav-up .social {
+        display: none!important;
+    }
+    header .brand.load img {
+        margin: 0!important;
+    }
+    body header .cart-count1 i {
+        font-size: 28px;
+    }
+    .nav-up {
+        padding: 10px 0 10px;
+    }
+}

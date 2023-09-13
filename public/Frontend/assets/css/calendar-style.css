@@ -1,0 +1,129 @@
+    tr.calendar-body .calendar-day {
+      padding: 10px 0 !important;
+    }
+    .calendar-sidebar > span#sidebarToggler , #eventListToggler{
+      height: auto;
+      background-color: #fdc642;
+    }
+    .event-indicator > .type-bullet > div.type-event {
+      background-color: #fdc642;
+   }
+    table th{
+      background: none!important;
+    }
+    th[colspan="7"] {
+      color: #fdc642;
+    }
+    table td{color:#303030!important;}
+    table tr:hover td, table tr:hover:nth-of-type(2n) > *{
+      opacity: 1;
+    }
+    .calendar-today::before {
+      content: "Today";
+      position: absolute;
+      bottom: -19px;
+      left: 0;
+      right: 0;
+      font-size: 12px;
+      text-transform: lowercase;
+      color: #000;
+   }
+   tr.calendar-body .calendar-day .day.calendar-today {
+      color: #fff;
+      background-color: #755eb5;
+      border-color: #755eb5;
+   }
+
+   header .brand.load img {
+      width: 30%;
+      height: auto;
+   }
+   .social {
+      gap: unset;
+      display: flex !important;
+   }
+   .cart-count1 i {
+      font-size: 35px;
+   }
+   .cart svg {
+      width: 30px;
+   }
+   header .cart {
+      width: 50px;
+      height: 50px;
+   }
+   .nav svg {
+      width: 30px;
+   }
+   .down.nav-up {
+      display: none;
+   }
+   .calendar-sidebar > .month-list > .calendar-months > li.active-month {
+      background-color: #fff;
+      color: #000;
+   }
+   .calendar-sidebar {
+      background-color: #fdc642;
+   }
+   .cart-count {
+      left: 0;
+      top: 50%;
+      font-size: .750rem;
+      right: 0;
+      transform: translateY(-35%);
+      text-align: center;
+      margin: 0 auto;
+    }
+    .btn-schedule-cart {
+      display: block;
+      background: #755eb5;
+      color: #fff;
+      text-align: center;
+      width: 100px;
+      margin-top: 8px;
+      border-radius: 15px;
+    }
+    .event-container > .event-info > p.event-title {
+      position: relative;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .event-list > .event-empty > p {
+      margin: 0;
+      color: #353537;
+    }
+    .event-list > .event-empty {
+      padding: 15px 10px;
+      background-color: rgba(255, 211, 38, 0.15);
+      border: 1px solid #fdc642;
+      color: #000;
+    }
+    footer .links {
+      margin-left: 2rem;
+    }
+    .calendar-events > .event-header > p {
+      font-size: 24px;
+      font-weight: 600;
+      color: #5a5a5a;
+    }
+    .coursedatas p {
+      color: #5b5656;
+      text-align: left;
+      font-size: 15px;
+    }
+    .event-title {
+      text-align: left;
+    }
+    .timeminutes {
+      color: #ff7575;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .event-container:hover {
+      background-color: #fff;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    .event-bullet-event {
+      background-color: #fdc642 !important;
+    }
